@@ -1,0 +1,28 @@
+/* Select everything on the page */
+* {
+    border: 1px solid lightgray;
+}
+
+/* Select every anchor tag that is inside an li */
+li a {
+    color: red;
+}
+
+/* Adjacent Selector */
+/* Select all ul that comes after h4 */
+h4 + ul {
+    border: 4px solid red;
+}
+
+/* Attribute Selector */
+a [href="http://www.google.com"] {
+    background: blue;
+}
+input [type="checkbox"] {
+    background: yellow;
+}
+
+/* n-th of type (Select the n-th element in the page */
+li:nth-of-type(3) {
+    background: purple;
+}

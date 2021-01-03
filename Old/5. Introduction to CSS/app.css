@@ -1,0 +1,14 @@
+h1 {
+    color: purple;
+    border: 5px solid purple;
+}
+
+h4 {
+    background: green;
+}
+
+body {
+    background: url(https://images-na.ssl-images-amazon.com/images/I/81eOxhxbivL._AC_SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
